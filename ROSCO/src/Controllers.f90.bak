@@ -172,8 +172,7 @@ CONTAINS
 
         CHARACTER(*),               PARAMETER           :: RoutineName = 'VariableSpeedControl'
 
-        ! Allocate Variables HC
-		LocalVar%VS_LastGenTrq = avrSWAP(23)
+        ! Allocate Variables
         
         ! -------- Variable-Speed Torque Controller --------
         ! Define max torque
